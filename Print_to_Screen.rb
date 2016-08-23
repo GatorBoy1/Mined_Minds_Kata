@@ -15,9 +15,12 @@
 
 number = 1
 100.times do
-if number % 3 == 0
+
+if number % 15 == 0
+	puts "Mined_Minds"
+elsif number % 3 == 0
 	puts "Mined"
-elsif number == 5
+elsif number %5 == 0
 	puts "Minds"
 else
 	puts number
